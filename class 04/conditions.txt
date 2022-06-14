@@ -1,0 +1,37 @@
+
+
+
+truthy
+
+falsy
+
+\\\ TRUE CONDITIONS ////////
+
+
+1) ture
+2) {}
+3) []
+4) 90
+5) "String"
+6) -84
+7) BigInt
+8) 8.14
+9) -894.89243
+10) Infinity
+11) -Infinity
+12) new Date()
+
+
+\\\\\\ FALSE CONDITIONS /////
+
+1) false
+2) null
+3) undefined
+4) 0
+5) -0
+6) 0n
+7) NaN
+8) ""
+
+
+
