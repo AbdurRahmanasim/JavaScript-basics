@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>ATM MACHINE</h1>
+    <br>
+    <div class="cont">
+        <span>ATM BALANCE<h4 id="atm">20000</h4></span>
+        <span>CARD LIMIT<h4 id="card">15000</h4></span>
+        <span>ACCOUNT BALANCE<h4 id="acc">10000</h4></span>
+    </div>
+    <br>
+    <form onsubmit="checkPin(); return false">
+        <input type="number" placeholder="PIN" id="val">
+        <br><br>
+        <button>Submit</button>
+        <br><br>
+        <h4 id="message"></h4>
+    </form>
+<br><br>
+<div id="next"></div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
